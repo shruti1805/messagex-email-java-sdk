@@ -1,2 +1,4 @@
+
 language: java
 sudo: false
+script: mvn install -DskipTests=false -Dmaven.javadoc.skip=true -B -V
