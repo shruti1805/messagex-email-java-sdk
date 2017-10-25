@@ -1,3 +1,6 @@
+
+<img src="https://travis-ci.org/shruti1805/messagex-email-java-sdk.svg?branch=master" style="max-width:100%;">
+ 
 JAVA SDK for EMAIL API
 ===============
 # Introduction
