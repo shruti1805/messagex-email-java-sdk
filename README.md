@@ -1,6 +1,6 @@
 
-<a href="https://travis-ci.org/shruti1805/messagex-email-java-sdk/builds/"></a>
-<img src="https://travis-ci.org/shruti1805/messagex-email-java-sdk.svg?branch=master" style="max-width:100%;">
+<a href="https://travis-ci.org/shruti1805/messagex-email-java-sdk/builds/">
+<img src="https://travis-ci.org/shruti1805/messagex-email-java-sdk.svg?branch=master" style="max-width:100%;"></a>
 
 JAVA SDK for EMAIL API
 ===============
