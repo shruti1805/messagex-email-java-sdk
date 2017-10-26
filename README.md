@@ -1,6 +1,9 @@
+<p>
+<a href="https://travis-ci.org/shruti1805/messagex-email-java-sdk/builds/"><img src="https://travis-ci.org/shruti1805/messagex-email-java-sdk.svg?branch=master" style="max-width:100%;"></a>
+<a href="LICENSE"><img src="https://img.shields.io/badge/license-messagex-blue.svg" style="max-width:100%;"></a>
+<a href="https://twitter.com/smsglobalhq?lang=en"><img src="https://img.shields.io/twitter/follow/espadrine.svg?style=social&label=Follow" style="max-width:100%;"></a>
+</p>
 
-<a href="https://travis-ci.org/shruti1805/messagex-email-java-sdk/builds/">
-<img src="https://travis-ci.org/shruti1805/messagex-email-java-sdk.svg?branch=master" style="max-width:100%;"></a>
 
 JAVA SDK for EMAIL API
 ===============
