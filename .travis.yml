@@ -1,6 +1,5 @@
 language: java
 sudo: false
 script: mvn install -DcreateChecksum=true -Dtest=MailTestAllScenerio test
-after_success:
-/upload.sh
+
  
