@@ -9,5 +9,7 @@ deploy:
   skip_cleanup: true
   on:
     tags: true
+    repo:/shruti1805/messagex-email-java-sdk
+    all_branches: true
 before_deploy: "echo 'Done'"
 
