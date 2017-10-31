@@ -1,11 +1,3 @@
 language: java
 sudo: false
 script: mvn install -DcreateChecksum=true -Dtest=MailTestAllScenerio test
-
-deploy:
-  provider: releases
-  api_key: 65a63f6bcd0b985ef749dda74e568a27ee9ce872
-  file: "messagex-email-java-sdk-1.0-SNAPSHOT.jar"
-  skip_cleanup: true
-  on:
-    tags: true
