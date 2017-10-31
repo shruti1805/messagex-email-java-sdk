@@ -9,6 +9,5 @@ deploy:
   skip_cleanup: true
   on:
     tags: true
-    branch: release
 before_deploy: "echo 'Done'"
 
