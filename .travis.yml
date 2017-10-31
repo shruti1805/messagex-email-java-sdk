@@ -3,10 +3,11 @@ sudo: false
 script: mvn install -DcreateChecksum=true -Dtest=MailTestAllScenerio test
 before_deploy: "echo 'ready?'"  
 deploy:
-  provider: pages
+  provider: releases
+  api_key: eeffc10cebda0f2920624bad5fa220e663a57924
+  file: messagex-email-java-sdk-1.0-SNAPSHOT.jar
   skip_cleanup: true
-  github_token: 65a63f6bcd0b985ef749dda74e568a27ee9ce872
   on:
-    branch: master    
+    tags: true  
 before_deploy: "echo 'Done'"
 
