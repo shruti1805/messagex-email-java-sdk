@@ -8,8 +8,6 @@ deploy:
   file: messagex-email-java-sdk-1.0-SNAPSHOT.jar
   skip_cleanup: true
   on:
-    tags: true
-    repo:/shruti1805/messagex-email-java-sdk
-    all_branches: true
+    tags: true    
 before_deploy: "echo 'Done'"
 
