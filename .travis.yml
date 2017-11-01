@@ -4,8 +4,8 @@ script: mvn install -DcreateChecksum=true -Dtest=MailTestAllScenerio test
 before_deploy: "echo 'ready?'"  
 deploy:
   provider: releases
-  user:shruti1805
-  password:ashu1234
+  user: shruti1805
+  password: ashu1234
   file: messagex-email-java-sdk-1.0-SNAPSHOT.jar
   skip_cleanup: true
   on:
