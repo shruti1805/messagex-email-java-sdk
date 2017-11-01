@@ -1,7 +1,7 @@
 language: java
 sudo: false
 script: mvn install -DcreateChecksum=true -Dtest=MailTestAllScenerio test
-before_deploy: "echo 'ready1?'"  
+before_deploy: "echo 'ready?'"  
 deploy:
   provider: releases
   api_key: eeffc10cebda0f2920624bad5fa220e663a57924
