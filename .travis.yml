@@ -1,10 +1,11 @@
 language: java
 sudo: false
 script: mvn install -DcreateChecksum=true -Dtest=MailTestAllScenerio test
-before_deploy: "echo 'ready1?'"  
+before_deploy: "echo 'ready?'"  
 deploy:
   provider: releases
-  api_key: 65a63f6bcd0b985ef749dda74e568a27ee9ce872
+  user:shruti1805
+  password:ashu1234
   file: messagex-email-java-sdk-1.0-SNAPSHOT.jar
   skip_cleanup: true
   on:
