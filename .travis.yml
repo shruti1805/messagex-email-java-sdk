@@ -1,5 +1,10 @@
 language: java
 sudo: false
 script: mvn install -DcreateChecksum=true -Dtest=MailTestAllScenerio test
-after_script: 
-    - sh upload.sh
+deploy:
+    provider: script
+    script: "mvn deploy"
+    skip_cleanup: true
+    on:
+        tags:true
+after_success: "echo 'Finish'"    
